@@ -8,16 +8,19 @@ class Student{
 	string name;
 	int age;
 	string gender;
-	
+	public:
 	void eat(){
-	cout << " Student is eating num num\n";
+	cout << " Student is eating \n";
 	}
 		void sleep(){
-	cout << " Student is sleeping gur gur\n";
+	cout << " Student is sleeping \n";
 	}
 		void study(){
 	cout << " Student is studying\n";
 	}
+	    void job(){
+	cout << "Student is get job";
+		}
 };
 int main(){
 	Student stud1;
@@ -26,6 +29,7 @@ int main(){
 	stud1.sleep();
 	stud1.study();
 	stud2.study();
+	stud2.job();
 	return 0;
 }
 	
